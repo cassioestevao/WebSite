@@ -346,14 +346,15 @@ span {
 .timeline-dot{
     height: 21px;
     width: 21px;
-    background-color: var(--main-color);
+    background-image: url(img/backgrounds/gradient.jpg);
+    background-size: cover;
     box-shadow: 0 0 25px var(--main-color),
                 0 0 50px var(--main-color);
     position: absolute;
     left: calc(50% - 8px);
     border-radius: 50%;
     top:  10px;
-
+    
  
 }
 
@@ -362,6 +363,7 @@ span {
     font-weight: 800;
     color: white;
     margin: 6px 0 15px;
+
 }
 .timeline-content{
     background-color: var(--bg-color);
@@ -371,6 +373,9 @@ span {
     box-shadow: 0 0 10px var(--main-color);
     cursor: pointer;
     transition: 0.3s ease-in-out;
+    background-image: url(img/backgrounds/gradient.jpg);
+    background-size: cover;
+
 }
 
 .timeline-content:hover{
